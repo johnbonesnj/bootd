@@ -441,7 +441,7 @@ let alone having a global `app` reference in other files.
 That to me is a backward thinking.
 The `app.js` is the "heart of the app", it should be the one referencing
 models, routes, controllers, etc.
-When working solo on small projects I actually prefer to have everything inside `app.js` as is the case with [this]((https://github.com/sahat/ember-sass-express-starter/blob/master/app.js))
+When working solo on small projects I actually prefer to have everything inside `app.js` as is the case with [this](https://github.com/sahat/ember-sass-express-starter/blob/master/app.js)
 REST API server.
 
 ### I don't need a sticky footer, can I delete it?

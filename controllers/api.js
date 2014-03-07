@@ -126,6 +126,7 @@ exports.getScraping = function(req, res, next) {
     $('.title a').each(function() {
       links.push($(this));
     });
+    console.log(links.index);
     res.render('api/scraping', {
       title: 'Web Scraping',
       links: links
